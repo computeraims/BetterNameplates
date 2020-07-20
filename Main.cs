@@ -37,8 +37,6 @@ namespace BetterNameplates
 
             Config = ConfigHelper.ReadConfig($"{path}{Path.DirectorySeparatorChar}config.json");
 
-            Console.WriteLine(Config);
-
             BetterNameplatesObject.AddComponent<NameplatesManager>();
         }
 
