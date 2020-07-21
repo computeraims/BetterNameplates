@@ -5,8 +5,6 @@ using Steamworks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace BetterNameplates
@@ -116,9 +114,6 @@ namespace BetterNameplates
                     {
                         return;
                     }
-
-                    //Console.WriteLine(thingLocated.player.clothing.mask);
-                    //Console.WriteLine(thingLocated.player.name);
 
                     if (enabledNameplatesList.Contains(thingLocated.player.channel.owner.playerID.steamID) && !player.player.isPluginWidgetFlagActive(EPluginWidgetFlags.ShowInteractWithEnemy))
                     {
