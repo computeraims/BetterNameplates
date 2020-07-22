@@ -10,4 +10,4 @@ allowToggle - true/false - Allow players to show/hide their nameplate with /name
 adminOverride - true/false - Allow admins to see nameplates regardless of player settings<br>
  
  # Support
-For plugin support join Discord https://discord.com/invite/ADUmgFt
+For plugin support join Discord https://discord.gg/CteHzWr
